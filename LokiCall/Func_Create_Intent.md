@@ -12,7 +12,7 @@ payload = {
     "intent": "AskWeather", #意圖名稱
     "func": "create_intent",
     "data": {
-    "type": "basic" #意圖類別
+        "type": "basic" #意圖類別
     }
 }
 
