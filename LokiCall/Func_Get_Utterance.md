@@ -8,10 +8,10 @@ from pprint import pprint
 
 url = "http://LokiTool_URL/loki/call/" #LokiCall URL
 payload = {
-	"project": "Weather", #專案名稱
-	"intent": "AskWeather", #意圖名稱
-	"func": "get_utterance",
-	"data": {}
+    "project": "Weather", #專案名稱
+    "intent": "AskWeather", #意圖名稱
+    "func": "get_utterance",
+    "data": {}
 }
 
 response = post(url, json=payload).json()
