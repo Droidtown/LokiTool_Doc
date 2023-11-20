@@ -20,7 +20,7 @@ payload = {
     "data": {
         "prompt": { #ChatGPT Prompt
             "assistant": "{{NAME}}的定義為{{DATA}}",
-            "user": "請依上文擬定5句回覆「{{UTTERANCE}}」的句子。"}
+            "user": "請依上文擬定5句回覆「{{UTTERANCE}}」的句子。"
         }
     }
 }
