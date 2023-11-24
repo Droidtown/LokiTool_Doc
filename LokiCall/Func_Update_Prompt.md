@@ -2,7 +2,7 @@
 
 更新以下的 ChatGPT Prompt 設定至專案`(Weather)`內的意圖`(AskWeather)`。
 
-- Assistast 設定為 `請閱讀「{{CONTENT}}」`。
+- 若有設定 Assistast ，則依照內容自行設定 Assistant 欄位。
 - User 設定為`請依上文擬定5句回覆「{{UTTERANCE}}」的句子`。
 
 ```python
