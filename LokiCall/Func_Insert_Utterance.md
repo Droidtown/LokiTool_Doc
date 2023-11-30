@@ -19,8 +19,20 @@ payload = {
             "今天天氣如何？",
             "下午會不會下雨？"
         ],
-        "checked_list": [ #勾選的詞性
-            "ENTITY_noun"
+        "checked_list": [ #所有詞性全勾選。你可以把不要勾的項目註解掉。
+            "ENTITY_noun", #包含所有名詞
+            "UserDefined", 
+            "ENTITY_num",
+            "DegreeP",
+            "MODIFIER_color",
+            "LOCATION",
+            "KNOWLEDGE_addTW",
+            "KNOWLEDGE_routeTW",
+            "KNOWLEDGE_lawTW",
+            "KNOWLEDGE_url",
+            "KNOWLEDGE_place",
+            "KNOWLEDGE_wikiData",
+            "KNOWLEDGE_currency"
         ]
     }
 }
