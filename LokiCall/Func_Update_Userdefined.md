@@ -5,6 +5,8 @@
 - 中央氣象局、氣象局。
 - 大雨、豪雨、大豪雨、超大豪雨。
 
+## 注意！「更新自定義辭典」只有「新增」，而沒有「刪除」。要刪除辭典內容，請參考 reset_userdefined ！
+
 ```python
 from requests import post
 from pprint import pprint
