@@ -1,5 +1,5 @@
 # LokiTool 
-> 本說明適用 https://api.droidtown.co/loki/ 和 Articut Docker 所附上的 LokiTool。
+> 本說明適用 [線上版 Loki](https://api.droidtown.co/loki/) , [英文版線上 Loki](https://api.droidtown.co/loki/) 和 Articut Docker 所附上的 LokiTool。
 
 
 Loki Tool 是操作 [Loki](https://api.droidtown.co/loki/) 的 Web 介面和 API 的工具集。透過 Loki Tool 提供的各式功能，快速加入大量文本與自定義辭典，輕鬆管理 Loki 上的所有專案與意圖。
