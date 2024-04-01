@@ -30,9 +30,10 @@ pprint(response)
 {
   "status": true,
   "msg": "Success!",
-  "loki_key" : "" // 線上版每個專案會有一個其專屬的專案金鑰(loki_key)。
+  "loki_key" : ""
 }
 ```
+註：線上版每個專案會有一個其專屬的專案金鑰 `loki_key`。
 
 ## Docker
 

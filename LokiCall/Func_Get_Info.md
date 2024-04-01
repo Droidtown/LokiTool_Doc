@@ -25,7 +25,7 @@ pprint(response)
 
 ```json
 {
-    "status": True,
+    "status": true,
     "msg": "Success!",
     "result": {
         "project_name": "AskWeather",
