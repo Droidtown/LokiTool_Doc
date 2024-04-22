@@ -35,4 +35,7 @@ Loki Tool 能[使用生成模型](https://github.com/Droidtown/LokiTool_Doc/wiki
 - [Run_Alias](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Run_Alias.md)
 
 ### [長名詞自動偵測](https://github.com/Droidtown/LokiTool_Doc/wiki/%E9%95%B7%E5%90%8D%E8%A9%9E%E8%87%AA%E5%8B%95%E5%81%B5%E6%B8%AC)
-Loki Web 介面中能[自動偵測長名詞]((https://github.com/Droidtown/LokiTool_Doc/wiki/%E9%95%B7%E5%90%8D%E8%A9%9E%E8%87%AA%E5%8B%95%E5%81%B5%E6%B8%AC))並生成自定義辭典。
+Loki Web 介面中能[自動偵測長名詞](https://github.com/Droidtown/LokiTool_Doc/wiki/%E9%95%B7%E5%90%8D%E8%A9%9E%E8%87%AA%E5%8B%95%E5%81%B5%E6%B8%AC)並生成自定義辭典。
+
+### [建立文本分類-分群模型](https://github.com/Droidtown/LokiTool_Doc/wiki/%E5%BB%BA%E7%AB%8B%E6%96%87%E6%9C%AC%E5%88%86%E9%A1%9E-%E5%88%86%E7%BE%A4%E6%A8%A1%E5%9E%8B)
+Loki Tool 提供了 `NeuroKumoko` 與 `GreedySlime`，協助您建立 文本分類/分群 模型，處理大批資料集，並判斷新資料所屬的分類。
