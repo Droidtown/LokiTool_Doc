@@ -21,19 +21,19 @@ payload = {
                 "label": "標籤1", # 「分群」模型沒有此參數！
                 "title": "範例標題1",
                 "content": "範例內文1",
-                "keyword": ["keyword1"]
+                "keyword": ["keyword1"] # 可留空，但不可省略
             },
             {
                 "label": "標籤1", # 「分群」模型沒有此參數！
                 "title": "範例標題2",
                 "content": "範例內文2",
-                "keyword": ["keyword2"]
+                "keyword": ["keyword2"] # 可留空，但不可省略
             },
             {
                 "label": "標籤2", # 「分群」模型沒有此參數！
                 "title": "範例標題3",
                 "content": "範例內文3",
-                "keyword": ["keyword3", "keyword4"]
+                "keyword": ["keyword3", "keyword4"] # 可留空，但不可省略
             }
         ]
     }
