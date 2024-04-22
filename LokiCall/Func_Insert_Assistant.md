@@ -1,4 +1,5 @@
 # 新增大量的 Assitant 內容
+> 適用於 `意圖/句型分析` 模型
 
 在專案`(Weather)`內意圖`(AskWeather)`新增大量的 Assistant 內容。
 

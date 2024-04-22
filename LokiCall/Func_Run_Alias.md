@@ -1,4 +1,5 @@
 # 套用 Prompt 別名執行 ChatGPT
+> 適用於 `意圖/句型分析` 模型
 
 套用專案`(Weather)`內意圖`(AskWeather)`的 Prompt 別名並執行 ChatGPT API。
 

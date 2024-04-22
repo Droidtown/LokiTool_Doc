@@ -1,4 +1,5 @@
 # 更新 Prompt 別名設定
+> 適用於 `意圖/句型分析` 模型
 
 更新以下的 Prompt 別名設定至專案`(Weather)`內的意圖`(AskWeather)`。
 

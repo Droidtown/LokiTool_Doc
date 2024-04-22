@@ -1,4 +1,5 @@
 # 建立新的專案
+> 適用於 `意圖/句型分析`, `NeuroKumoko(文本分類)` 和 `GreedySlime(文本分群)` 等模型
 
 在 Loki 中建立一個新的專案`(Weather)`。
 
