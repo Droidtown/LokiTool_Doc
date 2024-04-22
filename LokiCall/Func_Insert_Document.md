@@ -1,6 +1,6 @@
-# 新增大量句子
+# 新增大量文件
 
-在 `loki_key` 對應的 文本分類專案 內新增大量的分類或分群文件。
+在 `loki_key` 對應的 \[文本分類/分群\] 專案內新增大量的分類或分群文件。
 **注意！標題與內容相同的文件不會重複新增**
 
 ```python
@@ -17,19 +17,19 @@ payload = {
     "data": {
         "document": [
             {
-                "label": "標籤1",
+                "label": "標籤1", # 「分群」模型沒有此參數！
                 "title": "範例標題1",
                 "content": "範例內文1",
                 "keyword": ["keyword1"]
             },
             {
-                "label": "標籤1",
+                "label": "標籤1", # 「分群」模型沒有此參數！
                 "title": "範例標題2",
                 "content": "範例內文2",
                 "keyword": ["keyword2"]
             },
             {
-                "label": "標籤2",
+                "label": "標籤2", # 「分群」模型沒有此參數！
                 "title": "範例標題3",
                 "content": "範例內文3",
                 "keyword": ["keyword3", "keyword4"]
