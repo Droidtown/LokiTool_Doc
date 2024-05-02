@@ -78,34 +78,34 @@ pprint(response)
     "status": true,
     "msg": "Success!",
     "result": {
-        "project_name": "CV_classification",
+        "project_name": "your_project_name",
         "label": {
-            "RD工程師": [
+            "類別1": [
                 {
-                    "title": "員工1",
-                    "content": "公司網址：http://www..."
+                    "title": "資料1",
+                    "content": "資料內容1"
                 },
                 {
-                    "title": "員工2",
-                    "content": "本人家住台中出生於台北縣我於民..."
+                    "title": "資料2",
+                    "content": "資料內容2"
                 },
                 {
-                    "title": "員工4",
-                    "content": "您好，我叫李宥霖，目前就業於可..."
+                    "title": "資料3",
+                    "content": "資料內容3"
                 }
             ],
-            "行銷專員": [
+            "類別2": [
                 {
-                    "title": "員工3",
-                    "content": "在四年多步伐快速的公關經驗中，..."
+                    "title": "資料4",
+                    "content": "資料內容4"
                 },
                 {
-                    "title": "員工5",
-                    "content": "【關於我】\n\n       在..."
+                    "title": "資料5",
+                    "content": "資料內容5"
                 }
             ]
         },
-        "document_count": 3
+        "document_count": 5
     }
 }
 ```
