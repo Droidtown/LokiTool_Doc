@@ -15,7 +15,6 @@ payload = {
     #"username" : "", # 這裡填入您在 https://api.droidtown.co 使用的帳號 email。     Docker 版不需要此參數！
     #"loki_key" : "", # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。 Docker 版不需要此參數！
     "project": "", #專案名稱 (請先在 Loki 的設定網頁裡建立一個 Project 以便取得它的專案金鑰 (loki_key)
-    "project": "",
     "func": "get_source",
     "data": {
         "source": "" # 這裡填入您想要得到來源出處的對應文本
