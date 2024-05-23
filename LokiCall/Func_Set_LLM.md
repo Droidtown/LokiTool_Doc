@@ -14,6 +14,12 @@
 > docker 版與線上版的參數不一致！請參見下面的說明
 
 ```python
+from requests import post
+from pprint import pprint
+
+url = "https://api.droidtown.co/Loki/Call/"  #線上版 URL
+#url = "https://nlu.droidtown.co/Loki/Call/"  #英文版線上 URL
+
 payload = {
     "username": "", # 這裡填入您在 https://api.droidtown.co 使用的帳號 email。
     "loki_key": "", # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。
@@ -25,6 +31,9 @@ payload = {
         "endpoint": "", # Only for Azure ChatGPT
     }
 }
+
+response = post(url, json=payload).json()
+pprint(response)
 ```
 
 ---
@@ -34,6 +43,11 @@ payload = {
 > 對於 `NeuroKumoko(文本分類)` 和 `GreedySlime(文本分群)` 等模型，Docker 版提供自定義 prompt 功能。
 
 ```python
+from requests import post
+from pprint import pprint
+
+url = "http://LokiTool_URL/loki/call/" #LokiCall Docker 版請自訂 URL
+
 payload = {
     "project": "",
     "func": "set_llm",
@@ -42,4 +56,7 @@ payload = {
         "prompt": "" # customize prompt only for NeuroKumoko and GreedySlime
     }
 }
+
+response = post(url, json=payload).json()
+pprint(response)
 ```
