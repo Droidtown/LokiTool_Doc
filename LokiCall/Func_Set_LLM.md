@@ -13,6 +13,10 @@
 
 > docker 版與線上版的參數不一致！請參見下面的說明
 
+> [!NOTE]
+> 
+> 若是要將 LLM 設定為 `不使用`，則將 `data` 欄位中的 `llm` 設為 `空字串("")` 即可。
+
 ```python
 from requests import post
 from pprint import pprint
