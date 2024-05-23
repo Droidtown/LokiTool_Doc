@@ -36,6 +36,15 @@ response = post(url, json=payload).json()
 pprint(response)
 ```
 
+輸出結果如下
+
+```json
+{
+    "status": true,
+    "msg": "Success!"
+}
+```
+
 ---
 
 ## Docker
@@ -59,4 +68,13 @@ payload = {
 
 response = post(url, json=payload).json()
 pprint(response)
+```
+
+輸出結果如下
+
+```json
+{
+    "status": true,
+    "msg": "Success!"
+}
 ```
