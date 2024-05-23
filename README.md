@@ -17,6 +17,7 @@ Loki Tool 是操作 [Loki](https://api.droidtown.co/loki/) 的 Web 介面和 API
 - [Insert_Utterance](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Insert_Utterance.md)
 - [Match_Utterance](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Match_Utterance.md)
 - [Update_Userdefined](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Update_Userdefined.md)
+- [Set_LLM](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Set_LLM.md)
 
 
 ## 除了基本的 Loki Tool 功能以外，Loki 也包含了許多額外功能
