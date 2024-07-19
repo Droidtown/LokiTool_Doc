@@ -23,6 +23,24 @@ response = post(url, json=payload).json()
 pprint(response)
 ```
 
+## Docker
+
+```python
+from requests import post
+from pprint import pprint
+
+url = "http://LokiTool_URL/loki/call/" #LokiCall Docker 版請自訂 URL
+payload = {
+    "project": project,
+    "func": "deploy_model",
+    "data": {}
+}
+
+response = post(url, json=payload).json()
+pprint(response)
+
+```
+
 輸出結果如下：
 
 ```json
