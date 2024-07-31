@@ -22,7 +22,7 @@ Loki Tool 是操作 [Loki](https://api.droidtown.co/loki/) 的 Web 介面和 API
 
 ## 除了基本的 Loki Tool 功能以外，Loki 也包含了許多額外功能
 
-### ChatGpt API
+### ChatGPT API
 Loki Tool 能[使用生成模型](https://github.com/Droidtown/LokiTool_Doc/wiki/%E4%BD%BF%E7%94%A8%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B)。Loki 可以串接 ChatGpt API，並帶入自定義額外資訊，提昇模型的準確性。
 
 - [Update_Prompt](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Update_Prompt.md)
