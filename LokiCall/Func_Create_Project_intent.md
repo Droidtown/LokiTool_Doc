@@ -1,5 +1,5 @@
 # 建立新的專案
-> 適用於 `意圖/句型分析`, `NeuroKumoko(文本分類)` 和 `GreedySlime(文本分群)` 等模型
+> 適用於 `意圖/句型分析`模型
 
 在 Loki 中建立一個新的專案`(Weather)`。
 
@@ -17,7 +17,7 @@ payload = {
     "data": {
         "name": "Weather", # 這裡填入您想要在 Loki 上建立的專案名稱(僅接受英文 [a-z, A-Z]、數字 [0-9] 和底線 [_])
         "language": "zh-tw", # 可省略，專案使用語言 { 中文："zh-tw", 台語："taigi" }
-        "type": "intent", # 可省略，專案模型 { 意圖/句型分析："intent", 文本分類："neuro_kumoko", 文本分群："greedy_slime" }
+        "type": "intent", # 可省略
         #"version": "latest" # 可省略，Articut版本
     }
 }
@@ -49,7 +49,7 @@ payload = {
     "project": "Weather", # 這裡填入您想要在 Loki 上建立的專案名稱(僅接受英文 [a-z, A-Z]、數字 [0-9] 和底線 [_])
     "data": {
         "language": "zh-tw", # 可省略，專案使用語言 { 中文："zh-tw", 台語："taigi" }
-        "type": "intent", # 可省略，專案模型 { 意圖/句型分析："intent", 文本分類："neuro_kumoko", 文本分群："greedy_slime" }
+        "type": "intent", # 可省略
         #"version": "latest" # 可省略，Articut版本
     }
 }
