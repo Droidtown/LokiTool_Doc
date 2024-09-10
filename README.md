@@ -21,6 +21,7 @@ Loki Tool 是操作 [Loki](https://api.droidtown.co/loki/) 的 Web 介面和 API
 
 ### 額外功能
 1. 加入生成模型 - 加入LLM
+
 Loki Tool 能使用生成模型。Loki 可以串接 ChatGpt API，並帶入自定義額外資訊，提昇模型的準確性。
 - [Set_LLM](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Set_LLM.md)
 - [Insert_Assistant](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Insert_Assistant.md)
@@ -33,6 +34,7 @@ Loki Tool 能使用生成模型。Loki 可以串接 ChatGpt API，並帶入自�
 - [Reset_Alias](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Reset_Alias.md)
 
 2. 長名詞自動偵測
+
 Loki Web 介面中能自動偵測長名詞並生成自定義辭典。
 
 ### 二、文本分類-分群模型
