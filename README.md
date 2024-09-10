@@ -10,7 +10,7 @@ Loki Tool 是操作 [Loki](https://api.droidtown.co/loki/) 的 Web 介面和 API
 
 ### 一、意圖/句型分析模型
 #### 基本功能
-- [Create_Project_intent](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Create_Project_intent.md)
+- [Create_Project_Intent](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Create_Project_intent.md)
 - [Create_Intent](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Create_Intent.md)
 - [Insert_Utterance](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Insert_Utterance.md)
 - [Update_Userdefined](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Update_Userdefined.md)
