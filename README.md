@@ -56,5 +56,5 @@ Loki Tool 提供了 `NeuroKumoko` 與 `GreedySlime`，協助您建立 文本分�
 - [Check_Model](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Check_Model)
 - [Get_Source](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Get_Source)
 
-如果您想讓 LLM 祝您一臂之力，產生文章摘要，您可以額外設定加入生成模型：
+如果您想讓 LLM 助您一臂之力，產生文章摘要，您可以額外設定加入生成模型：
 - [Set_LLM](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Set_LLM)
