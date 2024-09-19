@@ -43,7 +43,7 @@ Loki Tool 提供了 `NeuroKumoko` 與 `GreedySlime`，協助您建立 文本分�
 #### NeuroKumoko
 - [Create_Project_NeuroKumoko](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Create_Project_NeuroKumoko)
 - [Insert_Document](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Insert_Document)
-- [Deploy_Model](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Deploy_Model))
+- [Deploy_Model](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Deploy_Model)
 - [Check_Model](https://github.com/Droidtown/LokiTool_Doc/blob/main/LokiCall/Func_Check_Model)
 
 如果您想讓 LLM 祝您一臂之力，產生文章摘要，您可以額外設定加入生成模型：
