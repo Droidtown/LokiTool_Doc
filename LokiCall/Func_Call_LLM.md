@@ -10,7 +10,7 @@ payload = {
   "username": "YOUR_USERNAME",
   "func": "call_llm",
   "data": {
-    "model": "Gemma2-9B", # [Gemma2-9B, Llama3-8B, Llama3-70B, Llama3-Taiwan-8B, Llama3.3-70B, Phi3-3B, Phi4-14B, Nemotron-4B]
+    "model": "Gemma2-9B", # [Gemma2-9B, Gemma3-12B, Gemma3-27B, Llama3-8B, Llama3-70B, Llama3-Taiwan-8B, Llama3.3-70B, Phi3-3B, Phi4-14B, Nemotron-4B]
     "system": "你是一個天氣助理", # optional
     "assistant": "中央氣象局丁小雨：「今天下午梅雨季鋒面報到，氣象局發出超大豪雨特報。」", # optional
     "user": "依上文設定，請問氣象局助理今天下午會不會下雨？", # required
