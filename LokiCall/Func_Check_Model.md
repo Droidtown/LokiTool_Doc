@@ -29,6 +29,9 @@ from requests import post
 from pprint import pprint
 
 url = "http://LokiTool_URL/loki/call/" #LokiCall Docker 版請自訂 URL
+                                       #步驟 01: 確認 lokitool 啟動
+                                       #步驟 02: 取得 lokitool 的 URL
+                                       #步驟 03: 將 lokitool 的 URL 取代這一行裡的 LokiTool_URL
 payload = {
     "project": project,
     "func": "check_model",
