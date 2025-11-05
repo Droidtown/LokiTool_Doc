@@ -5,6 +5,7 @@ from requests import post
 
 url = "https://api.droidtown.co/Loki/Call/" # 中文版
 #url = "https://nlu.droidtown.co/Loki_EN/Call/" # 英文版
+#詳細操作請參考線上版文件：https://api.droidtown.co/document/#Loki_12
 
 payload = {
   "username": "YOUR_USERNAME",

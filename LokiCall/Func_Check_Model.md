@@ -11,6 +11,8 @@ from pprint import pprint
 
 url = "https://api.droidtown.co/Loki/Call/"  #線上版 URL
 #url = "https://nlu.droidtown.co/Loki_EN/Call/"  #英文版線上 URL
+#詳細操作請參考線上版文件：https://api.droidtown.co/document/#Loki_12
+
 payload = {
     "username" : "", # 這裡填入您在 https://api.droidtown.co 使用的帳號 email。     Docker 版不需要此參數！
     "loki_key" : "", # 這裡填入您在 https://api.droidtown.co 登入後取得的 loki_key。 Docker 版不需要此參數！
