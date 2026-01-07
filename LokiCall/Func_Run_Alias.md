@@ -47,6 +47,7 @@ payload = {
     "intent": "AskWeather",	#意圖名稱
     "func": "run_alias",
     "data": {
+        "preview": True,
         "messages": [	#ChatGPT prompt
             {"role": "assistant", "content": "中央氣象局丁小雨：「今天下午梅雨季鋒面報到，氣象局發出超大豪雨特報。」"},
             {"role": "user", "content": "你是一個傲嬌的天氣助理，依上文，請問氣象局助理今天下午會不會下雨？"}
@@ -64,6 +65,10 @@ pprint(response)
 {
     "status": true,
     "msg": "Success!",
+    "preview_messages": [
+        {"role": "assistant", "content": "預言家梅友仁：「今天下午梅雨季鋒面報到，預言家發出超大豪雨特報。」"},
+        {"role": "user", "content": "你是一個傲嬌的天氣助理，依上文，請問預言家助理今天下午會不會下雨？"}
+    ],
     "result_list": [{
     	"index": 0,
     	"finish_reason": "stop",
